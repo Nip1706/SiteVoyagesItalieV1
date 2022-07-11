@@ -1,0 +1,334 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2013/10/02/23/03/peak-190053_960_720.jpg);
+    background-size: cover;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#lieuxvisitesbody {
+    background-image: url('fondlieux.jpg');
+    background-size: cover;
+}
+
+#titreprincipal-etp {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#logo-etp img {
+    width: 110px;
+    height: 110px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 15px;
+    margin-left: 110px;
+    margin-top: -35px;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+#navigation ul li {
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    transition: background-color 0.5s;
+}
+
+#navigation-etp a:hover {
+    background-color: rgba(44, 183, 218, 0.7);
+}
+
+li {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+HR {
+    margin-top: 20px;
+}
+
+nav{
+	width: 100%;
+	background-color: none;
+    align-items: center;
+    margin-left: 20px;
+}
+
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+nav > ul > li > a{
+	padding: 20px 23px;
+	color: white;
+
+}
+
+nav > ul > li:hover a{
+	padding: 15px 25px 20px 30px;
+	
+}
+
+nav li{
+	list-style-type: none;
+}
+
+.submenu{
+	display: none;
+
+}
+
+nav input[type=checkbox]{
+	display: none;
+}
+
+nav label{
+	display: none;
+}
+
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 20px;
+	color: white;
+	width: 180px;
+}
+
+.santagnello .submenu li a{
+	padding: 15px 50px;
+	font-size: 20px;
+	color: white;
+	width: 100px;
+}
+
+.sarento .submenu li a{
+	padding: 15px 35px;
+	font-size: 20px;
+	color: white;
+	width: 73px;
+}
+
+.bari:hover{
+	border-top: 5px solid skyblue;
+	background-color: rgba(000, 112, 192, 0.15);
+	font-weight: bold;
+}
+
+.lecce:hover{
+	border-top: 5px solid skyblue;
+	background-color: rgba(000, 112, 192, 0.15);
+	font-weight: bold;
+}
+
+.polignano:hover{
+	border-top: 5px solid skyblue;
+	background-color: rgba(000, 112, 192, 0.15);
+	font-weight: bold;
+}
+
+.matera:hover{
+	border-top: 5px solid skyblue;
+	background-color: rgba(000, 112, 192, 0.15);
+	font-weight: bold;
+}
+
+.sarento:hover{
+	border-top: 5px solid skyblue;
+	background-color: rgba(000, 112, 192, 0.15);
+	font-weight: bold;
+}
+
+.pontone:hover{
+	border-top: 5px solid skyblue;
+	background-color: rgba(000, 112, 192, 0.15);
+	font-weight: bold;
+}
+
+.santagnello:hover{
+	border-top: 5px solid skyblue;
+	background-color: rgba(000, 112, 192, 0.15);
+	font-weight: bold;
+}
+
+.contact:hover{
+	border-top: 5px solid skyblue;
+}
+
+.lecce .submenu{
+	background-color: rgba(000, 112, 192, 0.15);
+}
+
+.polignano .submenu{
+	background-color: rgba(000, 112, 192, 0.15);
+}
+
+.sarento .submenu{
+	background-color: rgba(000, 112, 192, 0.15);
+}
+
+.pontone .submenu{
+	background-color: rgba(000, 112, 192, 0.15);
+}
+
+.santagnello .submenu{
+	background-color: rgba(000, 112, 192, 0.15);
+}
+
+.submenu li:hover a{
+	color: white;: ;
+	font-weight: bold;
+}
+
+.lecce .submenu li:hover{
+	background-color: rgba(000, 100, 250, 0.10);
+}
+
+.polignano .submenu li:hover{
+	background-color: rgba(000, 100, 250, 0.10);
+}
+
+.sarento .submenu li:hover{
+	background-color: rgba(000, 100, 250, 0.10);
+}
+
+.pontone .submenu li:hover{
+	background-color: rgba(000, 100, 250, 0.10);
+}
+
+.santagnello .submenu li:hover{
+	background-color: rgba(000, 100, 250, 0.10);
+}
+
+#italymap {
+    width: 500px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#italymap img{
+    width: 450px;
+    height: 450px;
+}
+
+#ptpouilles{
+    position: relative;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+#ptpouilles:hover{
+    transform: scale(1.2);
+}
+
+#circle {
+    width: 150px;
+    height: 150px;
+    margin-top: -220px;
+    margin-left: 780px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    animation: 0.5s linear infinite alternate boxMagic,
+                5s linear infinite spinning;
+}
+
+
+@keyframes boxMagic {
+    from {
+        box-shadow: 
+        0 0 0 #feac5e,
+        0 0 0 #c779d0,
+        0 0 0 #4bc0c8,
+        0 0 0 #42db75
+        ;
+    }
+    to {
+        box-shadow: 
+        0 -7px 0 #feac5e,
+        -7px 0 0 #c779d0,
+        0 7px 0 #4bc0c8,
+        7px 0 0 #42db75
+        ;
+    }
+}
+
+
+
+nav input[type=checkbox]:checked ~ ul{
+	display: block;
+}
+
+@media screen and (max-width:  780px){
+	.menu-mobile{
+		display: block;
+		color: white;
+		background-color: rgba(29, 197, 151, 0.97);
+		text-align: center;
+		padding: 12px 0px;
+	}
+	nav ul{
+		display: none;
+	}
+	nav ul li, nav ul li a{
+		width: 100%;
+		text-align: center;
+	}
+	nav ul li a, nav ul li:hover a{
+		padding: 10px 0px;
+	}
+	nav li:hover .submenu{
+		display: block;
+		position: static;
+	}
+}
